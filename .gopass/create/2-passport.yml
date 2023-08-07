@@ -1,0 +1,23 @@
+---
+priority: 0
+name: "create Passport"
+prefix: "passport"
+name_from:
+  - "ФИО"
+  - "Дата рождения"
+  - "Дата выдачи"
+  - "Код подразделения"
+welcome: "🧪 Сохраняем паспортные данные"
+attributes:
+  - name: "фио"
+    type: "string"
+    prompt: "ФИО"
+    min: 1
+    max: 255
+  - name: "username"
+    type: "string"
+    prompt: "Username"
+    min: 1
+  - name: "password"
+    type: "password"
+    prompt: "Password for the Website"
